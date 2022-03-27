@@ -32,6 +32,7 @@ function recipeTemplate(recipe){//adds the recipes to the recipe-wrapper div
     
     return document.getElementById("recipe-wrapper").innerHTML += `
     <div class="recipe-contents">
+        <div class="recipe-header"><a class="back-arrow" href=""><strong><</strong></a>${recipe.tags}</div>
         <h2>${recipe.recipeName}</h2>
         <img class="recipe-image" src="${recipe.img}">
         ${ingredients(recipe.ingredients)}
@@ -86,8 +87,10 @@ function getRecipes(recipeTag){
 let i=0;
 function recipeLinks(links) {//create jump links to each recipe
     i++;
+    // return `
+    // <a class="recipe-links" href="#" data="${links.tags}">${i}. ${links.recipeName}</a><br><br>`;//this adds a number to the recipe title
     return `
-    <a class="recipe-links" href="#">${i}. ${links.recipeName}</a><br><br>`;
+    <a class="recipe-links" href="#" data="${links.tags}">${links.recipeName}</a><br><br>`;
     
 }
 
@@ -108,3 +111,44 @@ menuBtnDiv.addEventListener("click", (event) => {//add event listener to the but
         getRecipes(recipeTag);
     }
 });
+
+const jumpLinks = document.querySelectorAll("a[href^='#']");
+
+
+jumpLinks.forEach(link => {
+    link.addEventListener('click', event => {
+       event.preventDefault();
+       let clickedBtnText = event.target.innerText;
+
+       console.log(clickedBtnText);
+       recipeFile.map(function(recipeItem){
+        // console.log(recipeItem)
+        if (clickedBtnText == recipeItem.recipeName) {
+            console.log(recipeItem)
+            document.querySelector(".links-wrapper").innerHTML = "";
+            recipeTemplate(recipeItem);//recipeItem is the array that matches the button tag that was clicked
+            
+        }
+
+    });
+    //    if (link.innerHTML != "Home") {//keeps home from appearing in letter title
+    //      let selection = (link.innerHTML);
+    //      saveState()//save the series selection to session storage
+    //      imgMatrix.forEach(image => {
+    //        //console.log(image)
+    //        letterButton.style.display = "block";
+    //        document.getElementById("page-title").innerHTML = selection;//add the series title to the letter
+   
+    //        if (image[selection]) {
+    //          viewInstruct.style.display = "none";
+    //          //console.log(image[selection].img);
+    //          let selectedImg = image[selection].img;
+    //          //console.log(selectedImg);
+    //          // let imgRef = selectedImg;
+    //          // console.log(imgRef);
+    //          viewSelection.src = selectedImg;
+    //          // scriptView.classList.toggle('view');
+    //          scriptView.classList.remove('showScripture');
+    //     }
+    })
+})

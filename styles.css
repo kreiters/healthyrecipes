@@ -3,6 +3,7 @@ body {
     margin: 0;
     text-align: center;
     background-color: darkseagreen;
+    user-select: none;
 }
 
 .container {
@@ -91,4 +92,23 @@ body {
     padding: 5px;
     margin-top: 5px;
     line-height: 20px;
+}
+
+.recipe-header {
+    font-size: 2.5rem;
+    background-color: white;
+    padding: 5px;
+}
+
+.back-arrow {
+    position: absolute;
+    left: 20px;
+    color: black;
+    font-size: 2.5rem;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #50ca97;
+    border-radius: 6px;
+    padding: 0 10px;
 }

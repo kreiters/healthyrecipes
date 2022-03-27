@@ -3,7 +3,7 @@ let recipeFile = [
         recipeID: "1",
         recipeName:"Uncle Charles Rolls",
         img: "images/rolls.jpg",
-        tags:"appetizer",
+        tags:"Appetizer",
         ingredients: //changed to array and use forEach to loop over items
             ["1 8oz pack Oscar Mayer Braunschweiger",
             "1 8oz pack Philadelphia cream cheese",
@@ -24,7 +24,7 @@ let recipeFile = [
         recipeID: "",
         recipeName:"Omelet in Flour Tortilla",
         img: "images/omelet.jpg",
-        tags:"breakfast",
+        tags:"Breakfast",
         ingredients: //changed to array and use forEach to loop over items
             ["3 eggs",
             "1/4 cup diced green pepper",
@@ -118,7 +118,7 @@ let recipeFile = [
         recipeID: "2",
         recipeName:"Waffles",
         img: "images/waffles.jpg",
-        tags:"breakfast",
+        tags:"Breakfast",
         ingredients:
             ["3/4 cup all purpose flour",
             "1 Tbsp low salt baking powder",
