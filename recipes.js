@@ -115,6 +115,105 @@ let recipeFile = [
     },
     
     {
+        recipeID: "",
+        recipeName: "Enchilada Casserole", 
+        img: "images/enchilada.jpg",
+        tags:"Main Dish",
+        ingredients: 
+            ["1 lb ground beef",
+            "1 can Rotell Tomatoes w/green chili\’s",
+            "1/2 tsp cider vinegar",
+            "1/2 tsp sugar",
+            "1 8oz can tomato sauce",
+            "1/4 tsp oregano",
+            "12 oz shredded cheddar cheese",
+            "1/4 cup chopped onion",
+            "12 tortilla shells"
+            ],
+            directions:
+            ["1. Heat oven to 350 degrees",
+            "2. In large skillet, brown beef and add first 6 ingredients.",
+            "3. Simmer until thick,  stirring occasionally (approx 15min).",
+            "4. Spray casserole dish w/ non-stick spray.",
+            "5. Layer tortilla shells on bottom of dish, then beef mixture, onions and cheese.  Repeat for 3-4 layers.  Cheese will be final layer.",
+            "6. Bake in 350 degree oven for 15-20 minutes, or until cheese melts."
+            ]
+    },
+
+    {
+        recipeID: "",
+            recipeName:"Taco Salad",
+            img: "images/taco.jpg",
+            tags:"Main Dish",
+            ingredients:
+            ["1 lb ground beef",
+            "1 can Pinto Beans, drained & rinsed",
+            "1 Tomato, diced or cubed",
+            "1 bag lettuce",
+            "8oz shredded cheddar cheese",
+            "1/2 bottle Catalina dressing",
+            "Frito chips, guacamole & sour cream (if desired)"
+            ],
+            directions:
+            ["1. Brown hamburger meat with favorite spices (pepper, garlic powder, onion salt) in skillet.",                             
+            "2. Drain grease and rinse with water until meat is cool.",
+            "3. Combine all ingredients in Large bowl and toss well.",
+            "4. Add Fritos, guacamole & sour cream if desired."
+            ]
+    },
+
+    {
+        recipeID: "",
+        recipeName:"Sole a la New Orleans", 
+        img: "images/sole.jpg",
+        tags:"Main Dish",
+        ingredients: 
+            ["1 lb fish filet, sole or orange roughy",
+            "1 can/jar white sauce (heat 2-4 T butter, dash of salt & add 2-3T flour & approx 2 cup milk until thick).",
+            "3-5 tsp white wine",
+            "2 T lemon juice",
+            "salt & pepper to taste",
+            "1/2 cup slice mushrooms",
+            "2 T buttered crumbs & grated Parmesan cheese"
+            ],
+            directions: 
+            ["1. Heat oven to 375 degrees.",                             
+            "2.  Salt & pepper fish, then layer fish (2 layers) in greased baking dish.",
+            "3.  Add wine, lemon juice & mushrooms to white sauce",
+            "4.  Pour sauce over fish",
+	        "5.  Top with buttered crumbs & parmesan cheese",
+	        "6.  Bake 30 minutes at 375 degrees (do not overbake)."           
+            ]
+    },
+
+    {
+        recipeID: "",
+        recipeName:"Apricot Squares",
+        img: "images/apricot.jpg",
+        tags:"Dessert",
+        ingredients:
+            ["1 lb dry apricots (soak in water overnight)",
+            "1 1/4 cup sugar",
+            "2 cup flour",
+            "1/2 tsp baking powder",
+            "3/4 tsp salt",
+            "2/3 cup butter",
+            "4-6 T cold water",
+	        "3 tsp sugar + 1 tsp cinnamon (topping)"
+            ],
+            directions:
+            ["1. Heat oven to 350 degrees",
+            "2. Cook apricots on stovetop until soft enough to press through collander.  Add sugar & cook until thick.  Let cool.",
+            "3. Mix dry ingredients (flour, baking powder, salt) & cut in butter until peas form.  Add water.",
+            "4. Roll out thin layer of pastry on flour board.",
+            "5. Spread Apricot/sugar mixture over pastry & place layer of pastry on top. (can roll out 2 equal sized layers or fold over 1 large layer of pastry).",
+            "6.  Use fork to press/crimp edges & a knife to mark squares.",
+            "7.  Sprinkle sugar/cinnamon on top.",
+	        "8.  Bake in 350 degree oven for 20 minutes.  Cool, then cut."
+            ]
+    },
+
+    {
         recipeID: "2",
         recipeName:"Waffles",
         img: "images/waffles.jpg",
