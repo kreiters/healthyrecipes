@@ -61,7 +61,6 @@ function recipeButtons(buttons){ //create a button for each tag - used object de
     }
     else {//otherwise create a button with the recipe tag name
         // console.log("the btn name added is: ", newBtnArray[j]);
-        // console.log("j is ", j);
         return `
         <button class="menu-btn" id="${newBtnArray[j]}">${newBtnArray[j]}</button>`
     }
