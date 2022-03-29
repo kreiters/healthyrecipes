@@ -100,6 +100,7 @@ document.getElementById("recipe-container").innerHTML = `
 <div class="menu-btns">${recipeFile.map(recipeButtons).join("")}</div>
 <div class="recipe-wrapper" id="recipe-wrapper"></div>
 <div class="links-wrapper">${recipeFile.map(recipeLinks).join("")}</div>
+<a class="recipe-links" href="https://forms.office.com/r/VyJjAtXVDu">Add a recipe</a>
 `;
 // <div class="recipe-wrapper">${recipeFile.map(recipeTemplate).join("")}</div>
 
