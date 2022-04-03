@@ -226,7 +226,7 @@ let recipeFile = [
             "1 3/4 cup white sugar ",
             "6 T flour",
             "1 cup lemon juice",
-            "/3 cup confectioners’ sugar (decoration)"
+            "1/3 cup confectioners’ sugar (decoration)"
             ],
             directions: 
             ["1. Preheat oven to 350 degrees. Grease 9x13 pan.",
