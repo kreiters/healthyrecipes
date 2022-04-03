@@ -61,6 +61,7 @@ function recipeButtons(buttons){ //create a button for each tag - used object de
     }
     else {//otherwise create a button with the recipe tag name
         // console.log("the btn name added is: ", newBtnArray[j]);
+        // console.log("j is ", j);
         return `
         <button class="menu-btn" id="${newBtnArray[j]}">${newBtnArray[j]}</button>`
     }
@@ -99,9 +100,10 @@ document.getElementById("recipe-container").innerHTML = `
 <div class="menu-btns">${recipeFile.map(recipeButtons).join("")}</div>
 <div class="recipe-wrapper" id="recipe-wrapper"></div>
 <div class="links-wrapper">${recipeFile.map(recipeLinks).join("")}</div>
-<a class="recipe-links" href="https://forms.office.com/r/VyJjAtXVDu">Add a recipe</a>
 `;
 // <div class="recipe-wrapper">${recipeFile.map(recipeTemplate).join("")}</div>
+document.getElementById("recipe-container").innerHTML += `
+<a class="add-recipe" href="https://forms.office.com/r/VyJjAtXVDu">Add a recipe</a>`;
 
 let menuBtnDiv = document.querySelector(".menu-btns");
 menuBtnDiv.addEventListener("click", (event) => {//add event listener to the button div

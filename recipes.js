@@ -214,6 +214,125 @@ let recipeFile = [
     },
 
     {
+        recipeID: "",
+        recipeName:"Lemon Bars",
+        img: "images/lemonBars.jpg",
+        tags:"Dessert",
+        ingredients: 
+            ["1 1/2 cup all purpose flour",
+            "2/3 cup confectioners’ sugar",
+            "3/4 cup softened butter",
+            "6 eggs ",
+            "1 3/4 cup white sugar ",
+            "6 T flour",
+            "1 cup lemon juice",
+            "/3 cup confectioners’ sugar (decoration)"
+            ],
+            directions: 
+            ["1. Preheat oven to 350 degrees. Grease 9x13 pan.",
+            "2. Combine flour, confectioners sugar & butter. Pat dough into prepared pan.",
+            "3. Bake 15-20 minutes or until slightly golden.",
+            "4. While crust is baking, whisk eggs, white sugar, flour & lemon juice until frothy. (Add 3 drops yellow food color if desired.) Pour lemon mixture over hot crust.",
+            "5. Return to 350 degree preheated oven for 20-25 minutes or until light golden brown.",
+            "6. Cool on wire rack. Dust with confectioners’ sugar. Cut into squares."
+            ]
+    },
+    
+    {
+        recipeID: "",
+        recipeName:"Apple Bundt Cake",
+        img: "images/appleBundt.jpg",
+        tags:"Dessert",
+        ingredients: 
+            ["2 cups apples",
+            "1 T white sugar",
+            "1 tsp ground cinnamon",
+            "1 tsp ground nutmeg",
+            "1 tsp ground cloves",
+            "3 cups all purpose flour",
+            "3 tsp baking powder",
+            "1/2 tsp salt",
+            "2 cup white sugar",
+            "1 cup vegetable oil",
+            "1/4 cup orange juice",
+            "2 1/2 tsp vanilla extract",
+            "4 eggs",
+            "1 cup chopped walnuts",
+            "1/4 cup confectioners’ sugar for dusting"
+            ],
+            directions: 
+            ["1. Preheat oven to 350. Grease & flour Bundt pan.",
+            "2. In medium bowl, combine 1st 5 ingredients & set aside.",
+            "3. In another medium bowl, sift next 3 ingredients & set aside.",
+            "4. In large bowl, combine sugar, oil, orange juice, vanilla & eggs. Beat at high speed until smooth. Stir in flour mixture. Fold in chopped nuts.",
+            "5. Pour 1/3 batter into prepared pan. Sprinkle with 1/2 apple mixture. Add another layer of batter, apple mixture & batter as final top layer.",
+            "6. Bake in preheated oven for 55-60 minutes or until top springs back when lightly touched.",
+            "7. Let cool in pan for 10 minutes, then turn out onto a wire rack and cool completely.",
+            "8. Sprinkle with confectioners’ sugar."
+            ]
+    },
+    
+    {
+        recipeID: "",
+        recipeName:"Corned Beef Von Reuben",
+        img: "images/reuben.jpg",
+        tags:"Main Dish",
+        ingredients: 
+            ["6 oz seasoned croutons",
+            "12 oz can corned beef, crumbled",
+            "16 oz sauerkraut, drained",
+            "8 oz Swiss cheese slices",
+            "3 eggs",
+            "2 cups milk"
+            ],
+            directions: 
+            ["1. Preheat oven to 375. Grease 11 x 7 baking dish.",
+            "2. Place 1/2 of croutons on bottom of dish. Then layer the corned beef & sauerkraut. Top with remaining croutons & swiss cheese slices on top.",
+            "3. Beat eggs & milk together and slowly pour over swiss cheese.",
+            "4. Bake at 325 for 35 minutes or until brown & set in center."
+            ]
+    },
+    
+    {
+        recipeID: "",
+        recipeName:"Creamy Caramels",
+        img: "images/caramels.jpg",
+        tags:"Candy",
+        ingredients: 
+            ["1/2 cup chopped nuts",
+            "2 cup sugar",
+            "3/4 cup light corn syrup",
+            "1/2 cup butter",
+            "2 cup half & half milk",
+            "1 tsp vanilla extract"
+            ],
+            directions: 
+            ["1. Butter 8x8 square pan. Spread nuts on bottom of pan.",
+            "2. Heat sugar, corn syrup, butter & 1 cup half & half milk over medium heat until boiling, stirring frequently. Continue stirring constantly & add remaining cup of half & half until firm ball stage. (Small amount forms firm ball when dropped into cold water)",
+            "3. Remove from heat, stir in vanilla & immediately pour over nuts in pan. Cool, then cut into squares. (Or scoop small spoonful & roll into 2” squares of Saran Wrap)"
+            ]
+    },
+    
+    {
+        recipeID: "",
+        recipeName:"Butter Cream Chocolates",
+        img: "images/buttercream.jpg",
+        tags:"Candy",
+        ingredients: 
+            ["1/2 lb butter (2 sticks)",
+            "1 8 oz pkg cream cheese",
+            "3 lbs confectioners’ sugar",
+            "1/4 tsp vanilla extract",
+            "2 12 oz pkg semi sweet chocolate morsels",
+            "1/2 bar paraffin (2 1/2” x 2 1/2” x 1/2”)"
+            ],
+            directions: 
+            ["1. Cream butter and cream cheese. Let them sit at room temperature for an hour before starting. Gradually blend in sugar. Add vanilla. If necessary add 1 or 2 Tbsp of milk or cream to improve consistency. Shape into small balls (3/4-1” diameter) and place them on a wax paper lined cookie sheet. Cool overnight in the refrigerator.",
+            "2. Heat chocolate morsels and paraffin over double boiler while stirring. Remove from heat and with tongs (or toothpicks inserted in center of balls) dip the butter cream balls into the chocolate coating. Place dipped balls back on the waxed paper and cool in refrigerator for an hour. Wrap chocolates in squares of plastic wrap to preserve freshness."
+            ]
+    },
+        
+    {
         recipeID: "2",
         recipeName:"Waffles",
         img: "images/waffles.jpg",
@@ -294,18 +413,23 @@ let recipeFile = [
 
 
 
+
+
+
+
+
 // {
 //     recipeID: "",
 //     recipeName:"",
 //     img: "",
 //     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
+//     ingredients: 
 //         ["",
 //         "",
 //         "",
 //         ""
 //         ],
-//         directions: //changed to array and use forEach to loop over items
+//         directions: 
 //         ["1. ",
 //         "2. ",
 //         "3. ",
@@ -315,530 +439,12 @@ let recipeFile = [
 //         ]
 // },
 
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
 
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
 
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
 
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
 
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
 
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
 
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
-
-// {
-//     recipeID: "",
-//     recipeName:"",
-//     img: "",
-//     tags:"",
-//     ingredients: //changed to array and use forEach to loop over items
-//         ["",
-//         "",
-//         "",
-//         ""
-//         ],
-//         directions: //changed to array and use forEach to loop over items
-//         ["1. ",
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. "
-//         ]
-// },
 
 //  6. TACO SALAD IN CROWN SHELLS
 //  Ingredients:
