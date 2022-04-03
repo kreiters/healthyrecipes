@@ -1,6 +1,6 @@
 let recipeFile = [
     {
-        recipeID: "1",
+        recipeClass: "healthy",
         recipeName:"Uncle Charles Rolls",
         img: "images/rolls.jpg",
         tags:"Appetizer",
@@ -21,7 +21,7 @@ let recipeFile = [
     },
     
     {
-        recipeID: "",
+        recipeClass: "healthy",
         recipeName:"Omelet in Flour Tortilla",
         img: "images/omelet.jpg",
         tags:"Breakfast",
@@ -46,7 +46,7 @@ let recipeFile = [
     },
 
     {
-        recipeID: "",
+        recipeClass: "healthy",
         recipeName:"Eggplant Pizza",
         img: "images/eggplant.jpg",
         tags:"Main Dish",
@@ -66,7 +66,7 @@ let recipeFile = [
     },
 
     {
-        recipeID: "",
+        recipeClass: "healthy",
         recipeName:"Chili", //put the name of the recipe here, between the quotes
         img: "images/chili.jpg",
         tags:"Main Dish",
@@ -93,9 +93,88 @@ let recipeFile = [
             "Yield: Makes four to six bowls."
             ]
     },
+
+    {
+        recipeClass: "healthy",
+        recipeName:"Taco Bowls",
+        img: "images/tacoBowl.jpg",
+        tags:"Main Dish",
+        ingredients: 
+            ["2 crown taco shells",
+            "1/2 pound ground beef or turkey",
+            "1 cup no salt pinto beans - Buy dry beans, soak overnight, and cook until tender.",
+            "2 Tbsp oil (olive or canola)",
+            "1/2 tsp cumin",
+            "1/2 tsp onion powder",
+            "1/2 tsp garlic powder",
+            "1/2 tsp chili powder",
+            "1 cup shredded lettuce",
+            "1 cup diced tomatoes",
+            "1/2 cup grated cheese (mozzarella) 1/2 cup salsa (see recipe)",
+            "Sour cream, one or two dollops"
+            ],
+            directions: 
+            ["1. Pour oil in medium frypan; brown ground beef or turkey on medium heat. Crumble meat.",
+            "2. Add seasonings and cook 10 minutes.",
+            "3. Heat pinto beans in small sauce pan. Pour off excess water.",
+            "4. Heat crown taco shell in toaster oven for less than 2 minutes.",
+            "Important: Watch closely to avoid a fire.",
+            "5. Layer the following in the crown shell: pinto beans, meat, grated cheese (1/4 cup), lettuce, tomatoes, salsa, and a dollop of sour cream (if desired).",
+            "6. Guacamole makes a tasty side dish."
+            ]
+    },
     
     {
-        recipeID: "",
+        recipeClass: "healthy",
+        recipeName:"Italian Pasta Sauce",
+        img: "images/pastaSauce.jpg",
+        tags:"Sauce",
+        ingredients: 
+            ["1 8-oz can no salt tomato sauce 1 tsp oregano leaves",
+            "1 tsp Italian seasoning",
+            "1/2 tsp garlic powder",
+            "1/2 tsp onion powder",
+            "1/2 tsp crushed red pepper",
+            "Double the ingredients for spaghetti."
+            ],
+            directions: 
+            ["1. Mix the ingredients in small sauce pan.",
+            "2. Bring mixture to boil, stirring constantly. Turn heat to low and simmer for 5-10 minutes.",
+            "3. Spread sauce on main dish. May be used for egg plant pizza or spaghetti."
+            ]
+    },
+
+    {
+        recipeClass: "healthy",
+        recipeName:"Meatballs",
+        img: "images/meatballs.jpg",
+        tags:"Main Dish",
+        ingredients: 
+            ["1/2 pound ground beef",
+            "1/2 pound (ground) sausage",
+            "1 egg",
+            "1/4 green bell pepper, diced",
+            "1 Tbsp diced onion",
+            "2 Tbsp rolled oats (sprinkle more if needed)",
+            "2 Tbsp Rice Dream (or skim milk)",
+            "1/2 Tbsp minced garlic or 1 tsp garlic powder",
+            "1 Tbsp cilantro",
+            "1 tsp Dash brand “Onion with Herb” spice",
+            "2 Tbsp oil (olive or canola) for browning meatballs"
+            ],
+            directions: 
+            ["1. Mix ingredients (not oil) in bowl. Form balls.",
+            "2. Pour oil into medium sized frypan.",
+            "3. Brown meatballs on medium heat, turning to brown evenly.",
+            "4. Cover and cook for 15 - 20 minutes on low heat.",
+            "5. Cook spaghetti (no sodium) until tender. Drain.",
+            "6. Place spaghetti and meatballs on plate.",
+            "7. Cover with Italian sauce."
+            ]
+    },
+
+    {
+        recipeClass: "healthy",
         recipeName:"Salsa",
         img: "images/salsa.jpg",
         tags:"Condiments",
@@ -114,6 +193,129 @@ let recipeFile = [
             ]
     },
     
+    {
+        recipeClass: "healthy",
+        recipeName:"Hawaiian Stew",
+        img: "images/hawaiianStew.jpg",
+        tags:"Main Dish",
+        ingredients: 
+            ["1 cup shredded cabbage",
+            "1/2 green bell pepper, diced",
+            "1 can (small) pineapple slices, diced into eighths",
+            "2 Tbsp olive oil",
+            "16 to 20 pieces of cubed meat (may be pork loin, chicken, or shrimp. Caution - shrimp contains sodium."
+            ],
+            directions: 
+            ["1. Pour olive oil in large frypan; set on medium heat.",
+            "2. Brown meat chunks in pan, turning to brown evenly.",
+            "3. Add cabbage, green peppers, and juice from pineapple can.",
+            "4. Chop pineapple slices into cubes (eighths) and add to mixture.",
+            "5. Cover fry pan with glass lid and cook on low heat for 10 minutes.",
+            "6. Serve with basmati rice. (see instructions on rice bag.)"
+            ]
+    },
+
+    {
+        recipeClass: "healthy",
+        recipeName:"Johnny Marzetti", 
+        img: "images/marzetti.jpg",
+        tags:"Main Dish",
+        ingredients: 
+            ["1/2 pound ground beef",   
+            "2 Tbsp oil (olive or canola)",
+            "1/4 cup onion, diced",
+            "1/4 green bell pepper, diced",
+            "1 8-oz can no salt tomato sauce 3/4 cup elbow macaroni",
+            "1 tsp minced garlic",
+            "1/4 cup Parmesan cheese"
+            ],
+            directions: 
+            ["1. Pour oil in medium sized frypan; set burner to medium heat; add onions, garlic, and green peppers; sauté for 5 minutes.",   
+            "2. Add meat; crumble into small pieces and cook until browned.",
+            "3. Pour tomato sauce over mixture and stir. Continue cooking.",
+            "4. In separate sauce pan, boil 3 cups water. Add macaroni and cook until tender.",
+            "5. Drain water from macaroni; add macaroni to the frypan. Stir.",
+            "6. Simmer for 20 minutes.",
+            "7. Sprinkle Parmesan cheese on top and serve.",
+            "Yield: "  
+            ]
+    },
+    
+    {
+        recipeClass: "healthy",
+        recipeName:"Sloppy Joe on Pita Bread", 
+        img: "images/pitaJoe.jpg",
+        tags:"Main Dish",
+        ingredients: 
+            ["1/2 pound ground beef",   
+            "2 Tbsp oil (olive or canola)",
+            "2 Tbsp onion, diced",
+            "1 stalk celery, diced",
+            "1 8-oz can of no salt tomato sauce",
+                "1 Tbsp cider vinegar",
+                "2 packets Trivia sweetener",
+            "Pita bread or flour tortillas"     
+            ],
+            directions: 
+            ["1. Pour oil into medium sized frypan (set burner on medium heat).",   
+            "2. Add onion and celery; sauté for 5 minutes.",
+            "3. Add tomato sauce, Truvia, and vinegar. Stir well.",
+            "4. Simmer on low heat for 20 minutes.",
+            "5. Spoon mixture onto open pita bread or flour tortilla and serve.",
+            "6. Guacamole makes a tasty side dish.",
+            "Yield: "  
+            ]
+    },
+
+    {
+        recipeClass: "healthy",
+        recipeName:"Cold Plate Lunch", 
+        img: "images/eggVeggie.jpg",
+        tags:"Main Dish",
+        ingredients: 
+            ["Hard boiled eggs",   
+            "Slices (or sticks) of Swiss or mozzarella cheese",
+            "Cottage cheese (with Trivia if desired)",
+            "Celery",
+            "Radishes",
+            "Strawberries or other berries (with Trivia)",
+            "Graham crackers (contains some sodium)"     
+            ],
+            directions: 
+            ["1. Arrange items on plate and serve." 
+            ]
+    },
+
+    {
+        recipeClass: "healthy",
+        recipeName:"Stuffed Bell Peppers", 
+        img: "images/stuffedPeppers.jpg",
+        tags:"Main Dish",
+        ingredients: 
+            ["1/2 pound ground beef",   
+            "2 Tbsp oil (olive or canola oil)",
+            "2 or 3 green bell peppers - remove cores and seeds and cut in half",
+            "1 8-oz can (no salt) tomato sauce",
+            "1/2 cup basmati rice",
+            "1 small tomato, diced",
+            "1/4 cup parmesan cheese",
+            "1 tsp cumin powder",
+            "1 tsp Dash onion and herb",
+            "2 tsp minced garlic",
+            "1 tsp oregano",
+            "1-1/2 tsp onion powder"     
+            ],
+            directions: 
+            ["1. Brown meat in oil in large frypan; add spices, stir.",   
+            "2. Add tomato sauce, two cans water, rice, and diced tomato; stir.",
+            "3. Cook on medium heat, stirring constantly - 12 to 15 min.",
+            "4. Cut peppers in half, removing cores and seeds; place halves in pyrex dish; add 1/2 inch of water to dish; cover with plastic wrap.",
+            "5. Microwave peppers for 3 minutes, 20 seconds.",
+            "6. Drain water from dish and peppers; spoon meat/rice sauce into peppers.",
+            "7. Sprinkle Parmesan cheese liberally on peppers. Cover with plastic wrap and microwave for 1 minute, 30 seconds."
+            ]
+    },
+
     {
         recipeID: "",
         recipeName: "Enchilada Casserole", 
@@ -159,6 +361,26 @@ let recipeFile = [
             "2. Drain grease and rinse with water until meat is cool.",
             "3. Combine all ingredients in Large bowl and toss well.",
             "4. Add Fritos, guacamole & sour cream if desired."
+            ]
+    },
+    
+    {
+        recipeClass: "healthy",
+        recipeName:"Avacado and Egg Salad", 
+        img: "images/avacadoEggSalad.jpg",
+        tags:"Salad",
+        ingredients: 
+            ["1 avocado, sliced",   
+            "2 hard boiled eggs, sliced",
+            "1 cup chopped lettuce",
+            "1 tomato, quartered",
+            "1/3 of a cucumber, sliced",
+            "1/2 cup mushroom bits",
+            "Salsa (see recipe)",
+            "Cheese sticks"     
+            ],
+            directions: 
+            ["1. Arrange ingredients on plate, garnish with salsa, and serve." 
             ]
     },
 
@@ -333,7 +555,7 @@ let recipeFile = [
     },
         
     {
-        recipeID: "2",
+        recipeClass: "healthy",
         recipeName:"Waffles",
         img: "images/waffles.jpg",
         tags:"Breakfast",
@@ -356,6 +578,31 @@ let recipeFile = [
             "Yield: Recipe makes two 8-inch diameter waffles.",
             "Serving Suggestion: Sausage or low sodium bacon makes a tasty side dish."
             ]
+    },
+
+    {
+        recipeClass: "healthy",
+        recipeName:"Citizenship in Heaven", 
+        img: "images/heaven.jpg",
+        tags:"Special",
+        ingredients: 
+            ["1 Holy Bible",   
+            "2 ears that hear",
+            "2 eyes that see",
+            "1 heaping measure of repentance",
+            "1 heaping measure of humility",
+            "1 willing heart",
+            "1 grain of faith"    
+            ],
+            directions: 
+            ["1. Read the Holy Bible, especially Matthew, Mark, Luke, and John.",   
+            "2. Listen with your ears to that still small voice of God calling you.",
+            "3. Watch with your eyes the wise pastors who preach the gospel.",
+            "4. Repent of the sin in your life. The worst sin is rejecting God’s Son.",
+            "5. Bow with humility before Almighty God and ask His forgiveness.",
+            "6. Invite Jesus to come into your willing heart to be your Lord and Savior.",
+             "7. Have faith that Jesus will forgive you of your sins and receive you into His kingdom."  
+            ]
     }
 ];
 
@@ -364,7 +611,7 @@ let recipeFile = [
 // Blank Recipe Template:
 
 // {
-//     recipeID: "",
+//     recipeClass: "healthy",
 //     recipeName:"", //put the name of the recipe here, between the quotes
 //     img: "",
 //     tags:"",
@@ -386,219 +633,228 @@ let recipeFile = [
 // },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // {
-//     recipeID: "",
-//     recipeName:"",
+//     recipeClass: "healthy",
+//     recipeName:"", 
 //     img: "",
 //     tags:"",
 //     ingredients: 
-//         ["",
+//         ["",   
 //         "",
 //         "",
-//         ""
+//         ""     
 //         ],
 //         directions: 
-//         ["1. ",
+//         ["1. ",   
 //         "2. ",
 //         "3. ",
 //         "4. ",
 //         "5. ",
-//         "6. "
+//         "6. ",
+//          "Yield: "  
+//         ]
+// },
+  
+
+// {
+//     recipeClass: "healthy",
+//     recipeName:"", 
+//     img: "",
+//     tags:"",
+//     ingredients: 
+//         ["",   
+//         "",
+//         "",
+//         ""     
+//         ],
+//         directions: 
+//         ["1. ",   
+//         "2. ",
+//         "3. ",
+//         "4. ",
+//         "5. ",
+//         "6. ",
+//          "Yield: "  
 //         ]
 // },
 
+// {
+//     recipeClass: "healthy",
+//     recipeName:"", 
+//     img: "",
+//     tags:"",
+//     ingredients: 
+//         ["",   
+//         "",
+//         "",
+//         ""     
+//         ],
+//         directions: 
+//         ["1. ",   
+//         "2. ",
+//         "3. ",
+//         "4. ",
+//         "5. ",
+//         "6. ",
+//          "Yield: "  
+//         ]
+// },
 
+// {
+//     recipeClass: "healthy",
+//     recipeName:"", 
+//     img: "",
+//     tags:"",
+//     ingredients: 
+//         ["",   
+//         "",
+//         "",
+//         ""     
+//         ],
+//         directions: 
+//         ["1. ",   
+//         "2. ",
+//         "3. ",
+//         "4. ",
+//         "5. ",
+//         "6. ",
+//          "Yield: "  
+//         ]
+// },
 
+// {
+//     recipeClass: "healthy",
+//     recipeName:"", 
+//     img: "",
+//     tags:"",
+//     ingredients: 
+//         ["",   
+//         "",
+//         "",
+//         ""     
+//         ],
+//         directions: 
+//         ["1. ",   
+//         "2. ",
+//         "3. ",
+//         "4. ",
+//         "5. ",
+//         "6. ",
+//          "Yield: "  
+//         ]
+// },
 
+// {
+//     recipeClass: "healthy",
+//     recipeName:"", 
+//     img: "",
+//     tags:"",
+//     ingredients: 
+//         ["",   
+//         "",
+//         "",
+//         ""     
+//         ],
+//         directions: 
+//         ["1. ",   
+//         "2. ",
+//         "3. ",
+//         "4. ",
+//         "5. ",
+//         "6. ",
+//          "Yield: "  
+//         ]
+// },
 
+// {
+//     recipeClass: "healthy",
+//     recipeName:"", 
+//     img: "",
+//     tags:"",
+//     ingredients: 
+//         ["",   
+//         "",
+//         "",
+//         ""     
+//         ],
+//         directions: 
+//         ["1. ",   
+//         "2. ",
+//         "3. ",
+//         "4. ",
+//         "5. ",
+//         "6. ",
+//          "Yield: "  
+//         ]
+// },
 
+// {
+//     recipeClass: "healthy",
+//     recipeName:"", 
+//     img: "",
+//     tags:"",
+//     ingredients: 
+//         ["",   
+//         "",
+//         "",
+//         ""     
+//         ],
+//         directions: 
+//         ["1. ",   
+//         "2. ",
+//         "3. ",
+//         "4. ",
+//         "5. ",
+//         "6. ",
+//          "Yield: "  
+//         ]
+// },
 
+// {
+//     recipeClass: "healthy",
+//     recipeName:"", 
+//     img: "",
+//     tags:"",
+//     ingredients: 
+//         ["",   
+//         "",
+//         "",
+//         ""     
+//         ],
+//         directions: 
+//         ["1. ",   
+//         "2. ",
+//         "3. ",
+//         "4. ",
+//         "5. ",
+//         "6. ",
+//          "Yield: "  
+//         ]
+// },
 
-//  6. TACO SALAD IN CROWN SHELLS
-//  Ingredients:
-// 2 crown taco shells
-// 1/2 pound ground beef or turkey
-// 1 cup no salt pinto beans - Buy dry beans, soak overnight, and cook until tender.
-// 2 Tbsp oil (olive or canola)
-// 1/2 tsp cumin
-// 1/2 tsp onion powder
-// 1/2 tsp garlic powder
-// 1/2 tsp chili powder
-// 1 cup shredded lettuce
-// 1 cup diced tomatoes
-// 1/2 cup grated cheese (mozzarella) 1/2 cup salsa (see recipe)
-// Sour cream, one or two dollops
-// Directions
-// 1. Pour oil in medium frypan; brown ground beef or turkey on medium heat. Crumble meat.
-// 2. Add seasonings and cook 10 minutes.
-// 3. Heat pinto beans in small sauce pan. Pour off excess water.
-// 4. Heat crown taco shell in toaster oven for less than 2 minutes.
-// Watch closely to avoid a fire.
-// 5. Layer the following in the crown shell: pinto beans, meat, grated
-// cheese (1/4 cup), lettuce, tomatoes, salsa, and a dollop of sour
-// cream (if desired)
-// 6. Guacamole makes a tasty side dish.
-    
-//  7. ITALIAN SAUCE
-//  Ingredients:
-// 1 8-oz can no salt tomato sauce 1 tsp oregano leves
-// 1 tsp Italian seasoning
-// 1/2 tsp garlic powder
-// 1/2 tsp onion powder
-// 1/2 tsp crushed red pepper
-// Double the ingredients for spaghetti.
-// Directions
-// 1. Mix the ingredients in small sauce pan.
-// 2. Bring mixture to boil, stirring constantly. Turn heat to low
-// and simmer for 5-10 minutes.
-// 3. Spread sauce on main dish. May be used for egg plant
-// pizza or spaghetti.
-    
-//  8. MEATBALLS
-//  Ingredients:
-// 1/2 pound ground beef
-// 1/2 pound (ground) sausage
-// 1 egg
-// 1/4 green bell pepper, diced
-// 1 Tbsp diced onion
-// 2 Tbsp rolled oats (sprinkle more if needed)
-// 2 Tbsp Rice Dream (or skim milk)
-// 1/2 Tbsp minced garlic or 1 tsp garlic powder
-// 1 Tbsp cilantro
-// 1 tsp Dash brand “Onion with Herb” spice
-// 2 Tbsp oil (olive or canola) for browning meatballs
-// Directions
-// 1. Mix ingredients (not oil) in bowl. Form balls.
-// 2. Pour oil into medium sized frypan.
-// 3. Brown meatballs on medium heat, turning to brown evenly. 4. Cover and cook for 15 - 20 minutes on low heat.
-// 5. Cook spaghetti (no sodium) until tender. Drain.
-// 6. Place spaghetti and meatballs on plate.
-// 7. Cover with Italian sauce.
-    
-//  9. HAWAIAN STEW
-//   Ingredients:
-// 1 cup shredded cabbage
-// 1/2 green bell pepper, diced
-// 1 can (small) pineapple slices, diced into eighths
-// 2 Tbsp olive oil
-// 16 to 20 pieces of cubed meat (may be pork loin, chicken, or shrimp. Caution - shrimp contains sodium.
-// Directions
-// 1. Pour olive oil in large frypan; set on medium heat.
-// 2. Brown meat chunks in pan, turning to brown evenly.
-// 3. Add cabbage, green peppers, and juice from pineapple can.
-// 4. Chop pineapple slices into cubes (eighths) and add to mixture. 5. Cover fry pan with glass lid and cook on low heat for 10 minutes. 6. Serve with basmati rice. (see instructions on rice bag.)
-   
-//  10. JOHNNY MARZETTI
-//  Ingredients:
-// 1/2 pound ground beef
-// 2 Tbsp oil (olive or canola)
-// 1/4 cup onion, diced
-// 1/4 green bell pepper, diced
-// 1 8-oz can no salt tomato sauce 3/4 cup elbow macaroni
-// 1 tsp minced garlic
-// 1/4 cup Parmesan cheese
-// Directions
-// 1. Pour oil in medium sized frypan; set burner to medium heat; add onions, garlic, and green peppers; sauté for 5 minutes.
-// 2. Add meat; crumble into small pieces and cook until browned.
-// 3. Pour tomato sauce over mixture and stir. Continue cooking.
-// 4. In separate sauce pan, boil 3 cups water. Add macaroni and cook
-// until tender.
-// 5. Drain water from macaroni; add macaroni to the frypan. Stir.
-// 6. Simmer for 20 minutes.
-// 7. Sprinkle Parmesan cheese on top and serve.
-    
-//  11. SLOPPY JOE ON PITA BREAD
-//   Ingredients:
-// 1/2 pound ground beef
-// 2 Tbsp oil (olive or canola)
-// 2 Tbsp onion, diced
-// 1 stalk celery, diced
-// 1 8-oz can of no salt tomato sauce 1 Tbsp cider vinegar
-// 2 packets Trivia sweetener
-// Pita bread or flour tortillas
-// Directions
-// 1. Pour oil into medium sized frypan (set burner on medium heat). 2. Add onion and celery; sauté for 5 minutes.
-// 3. Add tomato sauce, Truvia, and vinegar. Stir well.
-// 4. Simmer on low heat for 20 minutes.
-// 5. Spoon mixture onto open pita bread or flour tortilla and serve. 6. Guacamole makes a tasty side dish.
-   
-//  12. COLD PLATE LUNCH
-//   Ingredients:
-// Hard boiled eggs
-// Slices (or sticks) of Swiss or mozzarella cheese
-// Cottage cheese (with Trivia if desired)) Celery
-// Radishes
-// Strawberries or other berries (with Trivia) Graham crackers (contains some sodium)
-//    Directions
-// 1. Arrange items on plate and serve.
-  
-//  13. AVACADO AND EGG SALAD
-//   Ingredients:
-// 1 avocado, sliced
-// 2 hard boiled eggs, sliced 1 cup chopped lettuce
-// 1 tomato, quartered
-// 1/3 of a cucumber, sliced 1/2 cup mushroom bits Salsa (see recipe) Cheese sticks
-//   Directions
-// 1. Arrange ingredients on plate, garnish with salsa, and serve.
-  
-//  14. STUFFED BELL PEPPERS
-//  Ingredients:
-// 1/2 pound ground beef
-// 2 Tbsp oil (olive or canola oil)
-// 2 or 3 green bell peppers - remove cores and seeds and cut in half
-// 1 8-oz can (no salt) tomato sauce 1/2 cup basmati rice
-// 1 small tomato, diced
-// 1/4 cup parmesan cheese
-// 1 tsp cumin powder
-// 1 tsp Dash onion and herb
-// 2 tsp minced garlic
-// 1 tsp oregano
-// 1-1/2 tsp onion powder
-// Directions
-// 1. Brown meat in oil in large frypan; add spices, stir.
-// 2. Add tomato sauce, two cans water, rice, and diced tomato; stir.
-// 3. Cook on medium heat, stirring constantly - 12 to 15 min.
-// 4. Cut peppers in half, removing cores and seeds; place halves in
-// pyrex dish; add 1/2 inch of water to dish; cover with plastic wrap.
-// 5. Microwave peppers for 3 minutes, 20 seconds.
-// 6. Drain water from dish and peppers; spoon meat/rice sauce into
-// peppers.
-// 7. Sprinkle Parmesan cheese liberally on peppers. Cover with plastic
-// wrap and microwave for 1 minute, 30 seconds.
-    
-//  15. LASAGNE
+// {
+//     recipeClass: "healthy",
+//     recipeName:"", 
+//     img: "",
+//     tags:"",
+//     ingredients: 
+//         ["",   
+//         "",
+//         "",
+//         ""     
+//         ],
+//         directions: 
+//         ["1. ",   
+//         "2. ",
+//         "3. ",
+//         "4. ",
+//         "5. ",
+//         "6. ",
+//          "Yield: "  
+//         ]
+// },
+
+//  15. Lasagne
 //  Ingredients:
 // Lasagna noodles - no sodium - use 8 or 9 strips 3/4 pounds ground beef
 // 1 14.5-oz can (no salt) diced tomatoes
@@ -621,7 +877,7 @@ let recipeFile = [
 // 7. Cover dish with aluminum foil and bake in preheated, 350 deg oven
 // for 25-30 minutes.
     
-//  16. POTATO SALAD
+//  16. Potato Salad
 //   Ingredients:
 // 1 large Idaho potato, baked, then diced 3 hard boiled eggs, diced
 // 2 stalks celery, diced
@@ -636,7 +892,7 @@ let recipeFile = [
 // moist.
 // 6. Serve on a bed of iceberg lettuce, along with sliced tomatoes.
    
-//  17. WALDORF SALAD
+//  17. Waldorf Salad
 //   Ingredients:
 // 1 cup red seedless grapes, halved 1 stalk chopped celery
 // 1/4 cup chopped walnuts
@@ -647,7 +903,7 @@ let recipeFile = [
 // 2. Add the mayo (or yogurt); stir, making sure all the ingredients are
 // moistened. Add more mayo (or yogurt) if needed. 3. Serve.
   
-//  18. DEVIL’D EGGS
+//  18. Devil’d Eggs
 //   Ingredients:
 // 5 hard boiled eggs
 // 2-1/2 tsp apple cider vinegar
@@ -665,7 +921,7 @@ let recipeFile = [
 // white halves.
 // 9. Sprinkle paprika on top of the eggs and serve.
    
-//  19. CITY CHICKEN
+//  19. City Chicken
 //  Ingredients:
 // 1/2 pound beef cubes 1/2 pound pork cubes 1/2 pound veal cubes Wooden skewers
 // 1 cup all purpose flour Oil (olive or canola) Paprika
@@ -682,7 +938,7 @@ let recipeFile = [
 // 7. Bake for 40 minutes and serve.
 // 8. Suggested side dishes: basmati rice and green beans.
      
-//  20. VEGETABLE SOUP
+//  20. Vegetable Soup
 //  Ingredients:
 // 2 pound beef roast (or beef cubes) 2 cups shredded cabbage
 // 1 cup diced celery (2 stalks)
@@ -700,7 +956,7 @@ let recipeFile = [
 // 4. Turn burner to low heat and let soup simmer until broth thickens.
 // 5. Suggested sides: warm flour tortillas, low fat yogurt.
     
-//  21. TURKEY NOODLE CASSEROLE
+//  21. Turkey Noodle Casserole
 //  Ingredients:
 // 2 cups shredded turkey breast (or chicken) 2 cups no salt egg noodles
 // 1/4 cup peas
@@ -723,7 +979,7 @@ let recipeFile = [
 // 9. Bake in 350 deg oven for 20 to 25 minutes or until chips are
 // browned; serve.
      
-//  22. CHICKEN NOODLE SOUP
+//  22. Chicken Noodle Soup
 //  Ingredients:
 // 2 to 4 chicken tenders (or a chicken breast) 4 packets “Herb Ox” sodium free granulated chicken bouillon
 // 1 cup sliced mini carrots
@@ -742,7 +998,7 @@ let recipeFile = [
 // 7. Suggested side dishes: salt-free corn chips, devil’d eggs or
 // guacamole.
     
-//  23. GUACAMOLE SALAD
+//  23. Guacamole Salad
 //  Ingredients:
 // 2 medium sized avocados
 // 1/4 cup diced onions
@@ -755,7 +1011,7 @@ let recipeFile = [
 // 3. Add other ingredients and blend together.
 // 4. Serve as a side dish.
   
-//  24. ENCHILADA CASSEROLE
+//  24. Enchilada Casserole
 //  Ingredients:
 // 1 pound ground beef (or turkey)
 // 2 Tbsp oil (olive or canola)
@@ -778,7 +1034,7 @@ let recipeFile = [
 // 4. Bake in preheated oven (350 deg) for 30 to 40 mintes.
 // 5. Suggested side dishes: Salt free corn chips and guacamole salad.
     
-//  25. CHICKEN SALAD
+//  25. Chicken Salad
 //  Ingredients:
 // 2 to 3 chicken tenders or thighs or breast, cooked and cubed
 // 1 small apple, diced
@@ -792,7 +1048,7 @@ let recipeFile = [
 // 2. Add mayonnaise and stir until mixture is moistened.
 // 3. Serve on bed of iceberg lettuce or on warm flour tortillas.
   
-//  26. CHICKEN SPAGHETTI
+//  26. Chicken Spaghetti
 //  Ingredients:
 // 1 whole chicken (or a turkey breast) 1 package no salt spaghetti noodles 1/2 cup diced onion
 // 1-1/2 cup chopped celery
@@ -819,7 +1075,7 @@ let recipeFile = [
 // mixture to each dish. With fork, mix the contents.
 // 7. Sprinkle with Parmesan cheese; bake in 375 deg oven for 20 min.
     
-//  27. CRANBERRY JELLO SALAD
+//  27. Cranberry Jello Salad
 //  Ingredients:
 // 1 6-oz package of sugar-free raspberry Jello 2 cups boiling water
 // 1 can crushed pineapple
@@ -836,7 +1092,7 @@ let recipeFile = [
 // 5. Cover with foil or plastic wrap and chill in refrigerator overnight.
 // 6. Cut into squares and serve.
     
-//  28. BEV’S MEAT LOAF
+//  28. Bev's Meatloaf
 //  Ingredients:
 // 1 pound ground beef
 // 1/2 cup oatmeal
@@ -848,7 +1104,7 @@ let recipeFile = [
 // 5. Cook for 10 minutes in microwave oven.
 // Serve with rice or baked potato and a hot vegetable (cauliflower, green beans, peas, limas, etc.).
     
-//  29. MEAT SAUCE
+//  29. Meat Sauce
 //  Ingredients:
 // 3/4 pound ground beef
 // 2 14.5 oz cans petite, diced no salt tomatoes 1 8 oz can no salt tomato sauce
@@ -872,7 +1128,7 @@ let recipeFile = [
 // 20 to 30 minutes (the longer the better).
 // 5. Serve over your favorite pasta - spaghetti, elbow macaroni, etc.
     
-//  30. BBQ SAUCE
+//  30. BBQ Sauce
 //  Ingredients:
 // 1/4 cup Splenda brown sugar 1/2 cup no salt ketchup
 // 1/6 cup red wine vinegar
@@ -882,7 +1138,7 @@ let recipeFile = [
 //   Directions
 // 1. Combine ingredients in medium size bowl. Whisk until thoroughly blended. (You may use a blender.)
   
-//  28. BREAKFAST IDEAS
+//  28. Breakfast Ideas
 //  Grains:
 // Cereals, such as shredded wheat biscuits or hot oatmeal (both of which have no sodium) - you may want to add Truvia brown sugar, walnuts, and/or raisins to the hot oatmeal. Avoid most boxed cereals, which are high in sodium. English Muffins (have less sodium than bread) - toast and use salt free butter Flour tortillas - can be used to make scrambled egg burritos (add salsa)
 // Rice cakes (toast, add no salt butter and sprinkle with Truvia and cinnamon Waffles (see recipe) or pancakes (use waffle recipe)
@@ -900,7 +1156,7 @@ let recipeFile = [
 // Other:
 // Sugar free jelly or jam Sugar free jello
       
-//  29. DESSERT IDEAS
+//  29. Dessert Ideas
 //  Fruits:
 // Melons - watermelon, honey dew, cantaloupe
 // Berries - strawberries, blueberries, raspberries, blackberries Frozen - peaches, pineapples (I cheat and add real whipped cream Various - apples, grapes, cherries, oranges, pears, asian pears, peaches (Warning - some fruits are high in nature; sugars.)
@@ -909,8 +1165,9 @@ let recipeFile = [
 // Bakery:
 // Cookies (sugar-free) - wafer cookies are tasty
    
-//    Directions
-// Lamb Stew Ingredients:
+
+// Lamb Stew
+//  Ingredients:
 // Lamb loin cut into cubes
 // 1-1/2 Tbsp canola oil
 // 1 cup shredded cabbage
@@ -919,17 +1176,21 @@ let recipeFile = [
 // starch (as needed)
 // 1 Tbsp parsley
 // 1 tsp onion powder 1 tsp garlic powder 1 tsp lemon pepper
-// 1. Brown meat in canola oil using large frypan. 2. Add cabbage, carrots, and parsnips.
+// directions
+// 1. Brown meat in canola oil using large frypan.
+// 2. Add cabbage, carrots, and parsnips.
 // 3. Add spices and stir.
-// 4. Add vegetable broth and cook 20 minutes. 5. In separate cup, dissolve cornstarch with
-// additional vegetable broth. Stir.
-// 6. Add cornstarch to stew and stir continually
-// until the stew thickens.
-// 7. Spoon the stew onto plates and sprinkle
-// with parsley.
+// 4. Add vegetable broth and cook 20 minutes.
+// 5. In separate cup, dissolve cornstarch with additional vegetable broth. Stir.
+// 
+// 6. Add cornstarch to stew and stir continually until the stew thickens.
+// 
+// 7. Spoon the stew onto plates and sprinkle with parsley.
+// 
 
-//    Ingredients:
+//    
 // Uncle Charles Rolls (High in Sodium)
+// Ingredients:
 // 1 8-oz pack Oscar Mayer Braunschweiger (use 1/2, i.e., 4 oz)
 // 1 8 oz pack Philadelphia cream cheese (use 1/2, i.e., 4 oz)
 // 2 Tbsp Silver Spring prepared horseradish 3 2-oz packets Buddig smoked, chopped, pressed ham or turkey
@@ -941,25 +1202,17 @@ let recipeFile = [
 // 5. Place a dollop (1-1/2 tsp) of the mixture on each slice of meat and roll into logs.
 // 6. Serve. Cover plate of leftovers with Saran Wrap and refrigerate.
 
-//  40. CITIZENSHIP IN HEAVEN
-//  Ingredients:
-// 1 Holy Bible
-// 2 ears that hear
-// 2 eyes that see
-// 1 heaping measure of repentance 1 heaping measure of humility
-// 1 willing heart
-// 1 grain of faith
-// Directions
+
 // BOOK OF LIFE
-//    1. Read the Holy Bible, especially Matthew, Mark, Luke, and John.
-// 2. Listen with your ears to that still small voice of God calling you.
-// 3. Watch with your eyes the wise pastors who preach the gospel.
-// 4. Repent of the sin in your life. The worst sin is rejecting God’s Son.
-// 5. Bow with humility before Almighty God and ask His forgiveness.
-// 6. Invite Jesus to come into your willing heart to be your Lord and
-// Savior.
-// 7. Have faith that Jesus will forgive you of your sins and receive you
-// into His kingdom.
+//    1. 
+// 2. 
+// 3. 
+// 4. 
+// 5. 
+// 6. 
+// 
+// 7. 
+// 
  
 
 
