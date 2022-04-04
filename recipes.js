@@ -317,6 +317,66 @@ let recipeFile = [
     },
 
     {
+        recipeClass: "",
+        recipeName:"Chicken Spaghetti", 
+        img: "images/chickenSpaghetti.jpg",
+        tags:"Main Dish",
+        ingredients: 
+            ["1 whole chicken (or a turkey breast)",   
+            "1 package no salt spaghetti noodles",
+            "1/2 cup diced onion",
+            "1-1/2 cup chopped celery",
+            "1 green bell pepper, diced",
+            "2 small cans sliced mushrooms, drained",
+            "2 Tbsp minced garlic",
+            "1 medium jar of pimentos, drained",
+            "1 medium can of sliced black olives (caution - high in sodium. May omit olives if desired)",
+            "3/4 cup Parmesan cheese",
+            "2 sticks (1/2 pound) no salt butter",
+            "32-oz Chicken broth (low sodium)"  
+            ],
+            directions: 
+            ["1. Fill one large saucepan half full of water. Add chicken; boil until tender.",   
+            "2. With tongs or fork, remove chicken from pan and place on cutting board. Shred and debone the chicken. (Save the water)",
+            "3. Add chicken broth to hot water; turn burner to medium high: add spaghetti and boil until tender.",
+            "4. Melt 2 sticks of no salt butter in large frypan (medium heat): add onion, celery, green bell pepper, mushrooms, garlic, pimentos, and olives. Stir and sauté for 10 minutes.",
+            "5. Add the shredded chicken to frypan and stir; cover and let simmer for 15 minutes.",
+            "6. You’ll need two 9X9X2 pyrex dishes. Drain spaghetti in sieve. Divide spaghetti in half and place in pyrex dishes. Add half the cooked meat mixture to each dish. With fork, mix the contents.",
+             "7. Sprinkle with Parmesan cheese; bake in 375 deg oven for 20 min."  
+            ]
+    },
+
+    {
+        recipeClass: "healthy",
+        recipeName:"Low Salt Lasagne", 
+        img: "images/lasagne.jpg",
+        tags:"Main Dish",
+        ingredients: 
+            ["Lasagna noodles - no sodium - use 8 or 9 strips",   
+            "3/4 pounds ground beef",
+            "1 14.5-oz can (no salt) diced tomatoes",
+            "1 8-oz can (no salt) tomato sauce",
+            "1/4 cup olive oil",
+            "3/4 pound cottage cheese",
+            "8 slices Swiss cheese",
+            "1/2 cup diced onion",
+            "1-1/2 tsp oregano",
+            "1/4 tsp black pepper",
+            "1/2 Tbsp minced garlic",
+            "Pepperoni slices, 6 to 8"     
+            ],
+            directions: 
+            ["1. Cook lasagne noodles in large saucepan of boiling water. When tender, rinse noodles in cold water. Set aside.",   
+            "2. Pour olive oil into large frypan; set to medium heat; when oil is hot, add onion and garlic; sauté for 8 min.",
+            "3. Add ground beef and fry until brown and crumbly.",
+            "4. Add diced tomatoes, tomato sauce, and spices; stir and cook until thickened.",
+            "5. Crisscross 1/2 of the noodles over the bottom of the dish; add one-half the meat sauce; lay four Swiss cheese slices atop the meat sauce, spread half the cottage cheese over the cheese slices; add pepperoni.",
+            "6. Repeat layering with remaining ingredients.",
+             "7. Cover dish with aluminum foil and bake in preheated, 350 deg oven for 25-30 minutes."  
+            ]
+    },
+    
+    {
         recipeID: "",
         recipeName: "Enchilada Casserole", 
         img: "images/enchilada.jpg",
@@ -810,73 +870,8 @@ let recipeFile = [
 //         ]
 // },
 
-// {
-//     recipeClass: "healthy",
-//     recipeName:"", 
-//     img: "",
-//     tags:"",
-//     ingredients: 
-//         ["",   
-//         "",
-//         "",
-//         ""     
-//         ],
-//         directions: 
-//         ["1. ",   
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. ",
-//          "Yield: "  
-//         ]
-// },
 
-// {
-//     recipeClass: "healthy",
-//     recipeName:"", 
-//     img: "",
-//     tags:"",
-//     ingredients: 
-//         ["",   
-//         "",
-//         "",
-//         ""     
-//         ],
-//         directions: 
-//         ["1. ",   
-//         "2. ",
-//         "3. ",
-//         "4. ",
-//         "5. ",
-//         "6. ",
-//          "Yield: "  
-//         ]
-// },
 
-//  15. Lasagne
-//  Ingredients:
-// Lasagna noodles - no sodium - use 8 or 9 strips 3/4 pounds ground beef
-// 1 14.5-oz can (no salt) diced tomatoes
-// 1 8-oz can (no salt) tomato sauce
-// 1/4 cup olive oil
-// 3/4 pound cottage cheese 8 slices Swiss cheese
-// 1/2 cup diced onion
-// 1-1/2 tsp oregano
-// 1/4 tsp black pepper
-// 1/2 Tbsp minced garlic Pepperoni slices, 6 to 8
-// Directions
-// 1. Cook lasagne noodles in large saucepan of boiling water. When tender, rinse noodles in cold water. Set aside.
-// 2. Pour olive oil into large frypan; set to medium heat; when oil is hot, add onion and garlic; sauté for 8 min.
-// 3. Add ground beef and fry until brown and crumbly.
-// 4. Add diced tomatoes, tomato sauce, and spices; stir and cook until
-// thickened.
-// 5. Crisscross 1/2 of the noodles over the bottom of the dish; add one-
-// half the meat sauce; lay four Swiss cheese slices atop the meat sauce, spread half the cottage cheese over the cheese slices; add pepperoni.
-// 6. Repeat layering with remaining ingredients.
-// 7. Cover dish with aluminum foil and bake in preheated, 350 deg oven
-// for 25-30 minutes.
-    
 //  16. Potato Salad
 //   Ingredients:
 // 1 large Idaho potato, baked, then diced 3 hard boiled eggs, diced
@@ -1047,34 +1042,9 @@ let recipeFile = [
 // 1. Put ingredients into medium sized bowl.
 // 2. Add mayonnaise and stir until mixture is moistened.
 // 3. Serve on bed of iceberg lettuce or on warm flour tortillas.
-  
-//  26. Chicken Spaghetti
-//  Ingredients:
-// 1 whole chicken (or a turkey breast) 1 package no salt spaghetti noodles 1/2 cup diced onion
-// 1-1/2 cup chopped celery
-// 1 green bell pepper, diced
-// 2 small cans sliced mushrooms, drained
-// 2 Tbsp minced garlic
-// 1 medium jar of pimentos, drained
-// 1 medium can of sliced black olives (caution - high in sodium. May omit olives if desired) 3/4 cup Parmesan cheese
-// 2 sticks (1/2 pound) no salt butter
-// 32-oz Chicken broth (low sodium)
-// Directions
-// 1. Fill one large saucepan half full of water. Add chicken; boil until tender.
-// 2. With tongs or fork, remove chicken from pan and place on cutting
-// board. Shred and debone the chicken. (Save the water.)
-// 3. Add chicken broth to hot water; turn burner to medium high: add
-// spaghetti and boil until tender.
-// 4. Melt 2 sticks of no salt butter in large frypan (medium heat): add onion,
-// celery, green bell pepper, mushrooms, garlic, pimentos, and olives. Stir
-// and sauté for 10 minutes.
-// 5. Add the shredded chicken to frypan and stir; cover and let simmer for
-// 15 minutes.
-// 6. You’ll need two 9X9X2 pyrex dishes. Drain spaghetti in sieve. Divide
-// spaghetti in half and place in pyrex dishes. Add half the cooked meat
-// mixture to each dish. With fork, mix the contents.
-// 7. Sprinkle with Parmesan cheese; bake in 375 deg oven for 20 min.
-    
+ 
+
+
 //  27. Cranberry Jello Salad
 //  Ingredients:
 // 1 6-oz package of sugar-free raspberry Jello 2 cups boiling water
@@ -1186,34 +1156,6 @@ let recipeFile = [
 // 6. Add cornstarch to stew and stir continually until the stew thickens.
 // 
 // 7. Spoon the stew onto plates and sprinkle with parsley.
-// 
-
-//    
-// Uncle Charles Rolls (High in Sodium)
-// Ingredients:
-// 1 8-oz pack Oscar Mayer Braunschweiger (use 1/2, i.e., 4 oz)
-// 1 8 oz pack Philadelphia cream cheese (use 1/2, i.e., 4 oz)
-// 2 Tbsp Silver Spring prepared horseradish 3 2-oz packets Buddig smoked, chopped, pressed ham or turkey
-// Directions
-// 1. Put braunschweiger and cream cheese in medium bowl.
-// 2. Using a fork, blend the two ingredients into a smooth paste.
-// 3. Add horseradish and mix thoroughly.
-// 4. Spread out the thin slices of meat on a paper towel.
-// 5. Place a dollop (1-1/2 tsp) of the mixture on each slice of meat and roll into logs.
-// 6. Serve. Cover plate of leftovers with Saran Wrap and refrigerate.
-
-
-// BOOK OF LIFE
-//    1. 
-// 2. 
-// 3. 
-// 4. 
-// 5. 
-// 6. 
-// 
-// 7. 
-// 
- 
 
 
 
